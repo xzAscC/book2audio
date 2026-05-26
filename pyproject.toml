@@ -1,0 +1,14 @@
+[project]
+name = "epub-audiobook"
+version = "0.1.0"
+description = "Convert EPUB books to audiobook (M4B/MP3) with chapter markers using edge-tts"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "ebooklib>=0.20",
+    "edge-tts>=7.2.8",
+    "html2text>=2025.4.15",
+    "lxml>=6.1.1",
+    "mutagen>=1.47.0",
+]
