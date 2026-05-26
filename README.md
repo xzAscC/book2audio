@@ -11,7 +11,7 @@ Uses [Microsoft Edge TTS](https://github.com/rany2/edge-tts) for high-quality ne
 - Audio normalization (EBU R128 loudnorm)
 - Automatic silence removal from chapter start/end
 - M4B output with embedded cover, chapter markers, and metadata
-- Resumable —中断后重新运行会跳过已生成的片段
+- Resumable — re-running skips already generated chunks
 
 ## Prerequisites
 
